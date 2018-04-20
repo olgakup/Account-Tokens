@@ -1,8 +1,8 @@
 {
   "name": "account-tokens",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "Olga <olga.kupchevskaya.812@my.csun.edu>",
+  "description": "Proejct that tracks tokens for the Ethereum account/address (COMP584). To start run: npm start --> localhost: 8080. Requires internet to run correctly. It runs through MyEtherWallet node and deploys a token contract",
+  "author": "Olga Kupchevskaya <olga.kupchevskaya.812@my.csun.edu> gitHub: olgakup",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -11,15 +11,17 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "bignumber.js": "^6.0.0",
     "bootstrap-vue": "^2.0.0-rc.7",
+    "font-awesome": "^4.7.0",
+    "json-rpc2": "git+https://github.com/kvhnuke/node-jsonrpc2.git",
     "node": "^9.11.0",
     "node-sass": "^4.8.3",
     "sass": "^1.2.0",
     "sass-loader": "^7.0.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "web3": "^1.0.0-beta.34",
-    "json-rpc2": "git+https://github.com/kvhnuke/node-jsonrpc2.git"
+    "web3": "^1.0.0-beta.34"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

@@ -1,6 +1,35 @@
+/* Style for Main Page: */
 @import './globals.scss';
-
 
 .heading{
 	  text-align: center;
+}
+
+.search{
+	display: inline;
+}
+
+.label{
+	text-allign: left;
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.search-form{
+	width: 100%;
+	.input-form{
+		width:78%;
+		margin-right: 2%;
+	}
+	.button-form{
+		width:20%;
+	}
+}
+.warning{
+	background: #FFC0CB;
+	border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  	padding: 20px 30px;
+  	max-width: 900px
 }
