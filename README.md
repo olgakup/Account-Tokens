@@ -2,6 +2,9 @@
 
 > A Vue.js project
 
+  Application tracks tokens for the Ethereum account/address. To start run: npm start --> localhost: 8080. Requires internet conenction. It runs through MyEtherWallet node and deploys a token contract with WEB3.
+  Contract Address = '0xBE1ecF8e340F13071761e0EeF054d9A511e1Cb56'.
+
 ## Build Setup
 
 ``` bash
